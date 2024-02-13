@@ -1,4 +1,3 @@
-import path from 'path';
 import Configjson from '../../../../Config.json' assert { type: 'json' };
 import fileNameJson from '../fileName.json' assert { type: 'json' };
 
