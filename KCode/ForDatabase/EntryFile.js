@@ -1,5 +1,5 @@
 import { StartFunc as StartFuncForFlatJson } from "./ForFlatJson/EntryFile.js";
-import ConfigJson from '../PrepareTablesSchema/Config.json' assert {type: 'json'};
+import ConfigJson from '../Config.json' assert {type: 'json'};
 import fs from "fs";
 
 let StartFunc = ({ inFilesArray, inFrom }) => {

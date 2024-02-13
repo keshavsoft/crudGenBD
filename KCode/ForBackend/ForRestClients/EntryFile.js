@@ -1,9 +1,10 @@
 import fs from 'fs';
 import { StartFunc as StartFuncCommonFuncs } from './CommonFuncs.js';
 
-let StartFunc = ({ inTablesCollection, inTo }) => {
+let StartFunc = ({ inTablesCollection, inTo, inFrom }) => {
     let LocalTypeName = "restClients/crud";
     let LocalTo = inTo;
+    let LocalFrom = inFrom;
 
     let LocalTablesCollection = inTablesCollection;
 
@@ -18,23 +19,29 @@ let StartFunc = ({ inTablesCollection, inTo }) => {
 
         StartFuncCommonFuncs({
             inFolderName: LoopFirst.name, inFilesCollection: LocalSecondLevelFiles,
-            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "get.http"
+            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "get.http",
+            inFrom: LocalFrom
         });
         StartFuncCommonFuncs({
             inFolderName: LoopFirst.name, inFilesCollection: LocalSecondLevelFiles,
-            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "post.http"
+            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "post.http",
+            inFrom: LocalFrom
         });
         StartFuncCommonFuncs({
             inFolderName: LoopFirst.name, inFilesCollection: LocalSecondLevelFiles,
-            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "delete.http"
+            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "delete.http",
+            inFrom: LocalFrom
         });
         StartFuncCommonFuncs({
             inFolderName: LoopFirst.name, inFilesCollection: LocalSecondLevelFiles,
-            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "image.http"
+            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "image.http",
+            inFrom: LocalFrom
         });
+
         StartFuncCommonFuncs({
             inFolderName: LoopFirst.name, inFilesCollection: LocalSecondLevelFiles,
-            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "put.http"
+            inTo: LocalTo, inTypeName: LocalTypeName, inFileName: "put.http",
+            inFrom: LocalFrom
         });
 
     });

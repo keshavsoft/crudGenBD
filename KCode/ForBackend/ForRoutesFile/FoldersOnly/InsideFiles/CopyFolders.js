@@ -1,7 +1,7 @@
 import fs from "fs-extra";
 import path from "path";
 
-import ConfigJson from '../../../../../src/Config.json' assert {type: 'json'};
+// import ConfigJson from '../../../../../src/Config.json' assert {type: 'json'};
 
 let StartFunc = ({ inTablesCollection, inTo, inFrom }) => {
     let LocalTo = inTo;
@@ -19,11 +19,11 @@ let StartFunc = ({ inTablesCollection, inTo, inFrom }) => {
         });
 
         LocalSecondLevelFiles.forEach(LoopSecond => {
-            let LoopInsideFolderName = LoopSecond.path.replace(`FromTableColumns\\${ConfigJson.ToDataDetails.DataPk}`, LocalTo);
-            LoopInsideFolderName = LoopInsideFolderName.replace(LoopSecond.name, path.parse(LoopSecond.name).name);
+            // let LoopInsideFolderName = LoopSecond.path.replace(`FromTableColumns\\${ConfigJson.jsonConfig.DataPk}`, LocalTo);
+            // LoopInsideFolderName = LoopInsideFolderName.replace(LoopSecond.name, LoopSecondpath.parse(LoopSecond.name).name);
 
             try {
-                fs.cpSync(`${LocalFrom}/kSampleFolder/ksSample`, LoopInsideFolderName, {
+                fs.cpSync(`${LocalFrom}/kSampleFolder/ksSample`, `${LocalTo}/${LoopFirst.name}/${path.parse(LoopSecond.name).name}`, {
                     recursive: true,
                 });
             } catch (error) {

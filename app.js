@@ -1,8 +1,8 @@
-import { StartFunc as StartFuncPortListen } from "./PortListen.js";
-
 import { router as routerFromSrc } from "./src/routes.js";
+import { router as routerFromBin } from "./bin/routes.js";
 
 import { StartFunc as StartFuncKWSServer } from "./Projects/KWSServer/EntryFile.js";
+import { StartFunc as StartFuncPortListen } from "./PortListen.js";
 
 import packageJSON from './package.json' assert {type: 'json'};
 
@@ -43,6 +43,7 @@ app.get('/AboutUs', (req, res) => {
 });
 
 app.use('/src', routerFromSrc);
+app.use('/bin', routerFromBin);
 
 StartFuncKWSServer(server);
 
