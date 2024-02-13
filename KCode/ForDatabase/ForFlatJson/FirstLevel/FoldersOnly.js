@@ -1,5 +1,6 @@
 import fs from "fs-extra";
-import ConfigJson from '../../../../src/Config.json' assert {type: 'json'};
+//import ConfigJson from '../../../../src/Config.json' assert {type: 'json'};
+import ConfigJson from '../../../Config.json' assert {type: 'json'};
 
 let StartFunc = ({ inTablesCollection }) => {
     let LocalTablesCollection = inTablesCollection;
