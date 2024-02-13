@@ -1,0 +1,23 @@
+  {
+    "OrderId": {
+      "type": "STRING",
+      "allowNull": false,
+      "unique": true
+    },
+    "CustomerName": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "CustomerMobile": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "FlatDetails": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "GarmentDetails": {
+      "type": "STRING",
+      "allowNull": true
+    }
+  }

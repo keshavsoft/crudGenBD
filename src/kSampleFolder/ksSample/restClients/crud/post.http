@@ -12,7 +12,7 @@ POST http://localhost:7016/src/ksSample/UploadImage
 content-type: application/json
 
 ###
-POST http://localhost:7016/srcWithFolder/kSampleFolder/ksSample
+POST http://localhost:7016/src/kSampleFolder/ksSample
 content-type: application/json
 
 {

@@ -1,0 +1,8 @@
+{
+    "JsonPath": "KData/JSON/316",
+    "ToDataDetails": {
+        "DataPk": 317,
+        "DataPath": "KData/JSON",
+        "DbName": "data.db"
+    }
+}

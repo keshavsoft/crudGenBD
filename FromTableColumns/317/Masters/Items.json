@@ -1,0 +1,19 @@
+  {
+    "Category": {
+      "type": "STRING",
+      "allowNull": false,
+      "unique": true
+    },
+    "ItemName": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "DryWashRate": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "Pcs": {
+      "type": "STRING",
+      "allowNull": true
+    }
+  }

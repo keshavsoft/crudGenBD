@@ -1,0 +1,43 @@
+{
+    "Voucher":{
+        "type": "STRING",
+        "allowNull": false
+    },
+    "Number":{
+        "type": "NUMBER",
+        "allowNull": false
+    },
+    "Date":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "CustomerName":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "AccountBalnce":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Narration":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "City":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "GSTin":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Price":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "GoDown":{
+        "type": "STRING",
+        "allowNull": true
+    }
+
+}

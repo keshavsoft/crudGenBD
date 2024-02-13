@@ -1,0 +1,19 @@
+  {
+    "CustomerName": {
+      "type": "STRING",
+      "allowNull": false,
+      "unique": true
+    },
+    "Mobile": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "City": {
+      "type": "STRING",
+      "allowNull": true
+    },
+    "Pcs": {
+      "type": "STRING",
+      "allowNull": true
+    }
+  }

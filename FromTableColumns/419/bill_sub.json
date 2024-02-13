@@ -1,0 +1,30 @@
+{
+    "GridAccount":{
+        "type": "STRING",
+        "allowNull": false
+    },
+    "ProducName":{
+        "type": "NUMBER",
+        "allowNull": false
+    },
+    "Bal":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Batch":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Qty":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Rate":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "Amount":{
+        "type": "STRING",
+        "allowNull": true
+    }
+}

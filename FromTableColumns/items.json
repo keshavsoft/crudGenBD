@@ -1,0 +1,14 @@
+{
+    "ItemName":{
+        "type": "STRING",
+        "allowNull": false
+    },
+    "ItemRate":{
+        "type": "NUMBER",
+        "allowNull": true
+    },
+    "ItemDescription":{
+        "type": "STRING",
+        "allowNull": true
+    }
+}

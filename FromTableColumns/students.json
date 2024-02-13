@@ -1,0 +1,18 @@
+{
+    "StudentName":{
+        "type": "STRING",
+        "allowNull": false
+    },
+    "StudentMobile":{
+        "type": "NUMBER",
+        "allowNull": false
+    },
+    "StudentCity":{
+        "type": "STRING",
+        "allowNull": true
+    },
+    "StudentRollNo":{
+        "type": "STRING",
+        "allowNull": true
+    }
+}

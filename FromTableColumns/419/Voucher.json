@@ -1,0 +1,8 @@
+{
+    "VoucherName":{
+        "type": "STRING",
+        "allowNull": false,
+        "unique": true
+
+    }
+}

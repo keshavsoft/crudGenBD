@@ -1,0 +1,8 @@
+{
+    "TailorName": {
+        "type": "STRING"
+    },
+    "TailorMobile": {
+        "type": "NUMBER"
+    }
+}
