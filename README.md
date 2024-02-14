@@ -120,7 +120,8 @@ Follow Installation steps 1, 2, 3 then
    
    ```
       npm run start
-
+   
+   ```
 
 to rerun the application for new schema
 
