@@ -5,11 +5,12 @@ let StartFunc = ({ inTablesCollection }) => {
     let LocalTablesCollection = inTablesCollection;
 
     let LocalFirstLevelFolders = LocalTablesCollection.children.filter(element => {
-        return "children" in element === false
+        return "children" in element
     });
 
     LocalFirstLevelFolders.forEach(element => {
-        fs.writeFileSync(element.path.replace("FromTableColumns", ConfigJson.ToDataDetails.DataPath), JSON.stringify({}));
+        let LoopInside = element.path.replace(ConfigJson.ToDataDetails.DataSchemaLocation, ConfigJson.ToDataDetails.DataPath);
+        fs.mkdirSync(LoopInside);
     });
 };
 

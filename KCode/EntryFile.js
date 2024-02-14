@@ -1,30 +1,7 @@
-import { StartFunc as StartFuncPrepareTablesSchema } from "./PrepareTablesSchema/EntryFile.js";
-import { StartFunc as StartFuncPrepareReadColumnsData } from "./PrepareTablesSchema/ReadColumnsData.js";
+import { StartFunc as StartFuncReadDataSchema } from "./ReadDataSchema.js";
+import { StartFunc as StartFuncCrudGenerator } from "./CrudGenerator/EntryFile.js";
 
-import { StartFunc as StartFuncForDatabase } from './ForDatabase/EntryFile.js';
-import { StartFunc as StartFuncForBackend } from './ForBackend/EntryFile.js';
+let LocalFilesArray = StartFuncReadDataSchema();
 
-let StartFunc = ({ inFilesArray }) => {
-    let LocalFilesArray = inFilesArray;
-    let CommonFrom = "src";
-    let CommonTo = "bin";
-
-    StartFuncForBackend({
-        inTablesCollection: LocalFilesArray,
-        inFrom: CommonFrom,
-        inTo: CommonTo
-    });
-
-    StartFuncForDatabase({
-        inFilesArray: LocalFilesArray,
-        inFrom: CommonFrom,
-        inTo: CommonTo
-    });
-};
-
-let LocalFilesArray = StartFuncPrepareTablesSchema();
-StartFuncPrepareReadColumnsData({ inTableData: LocalFilesArray });
-
-console.log("LocalFilesArray : ", LocalFilesArray);
-
-StartFunc({ inFilesArray: LocalFilesArray });
+StartFuncCrudGenerator({ inFilesArray: LocalFilesArray });
+// console.log("aaaaaaaaaa : ", LocalFilesArray);
