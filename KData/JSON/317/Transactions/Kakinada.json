@@ -1,6 +1,26 @@
 [
   {
-    "ItemsInOrder": "iiiiiiiiiiiii",
+    "2": {
+      "Name": "AAAAAAAA"
+    },
+    "ItemsInOrder": {
+      "1": {
+        "ItemSerial": 1,
+        "Category": "Men",
+        "ItemName": "M Shirt DW",
+        "ItemNamePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "WashType": "DryWash",
+        "WashTypePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "locationPk": "Vizag",
+        "location": "Vizag",
+        "Pcs": 1,
+        "Rate": 60,
+        "DisPer": 0,
+        "AddOn": "0-0",
+        "DeliveryDateTime": "2024-02-21T12:32:28",
+        "Total": 60
+      }
+    },
     "CustomerData": {
       "CustomerName": "SREENIVA",
       "CustomerMobile": "8341177771"

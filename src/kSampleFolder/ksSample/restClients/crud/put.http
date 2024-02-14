@@ -1,4 +1,13 @@
-GET http://localhost:7016/src/kSampleFolder/ksSample/16
+PUT http://localhost:7016/src/kSampleFolder/ksSample/16
+content-type: application/json
+
+{
+"Name":"AAAAAAAA"
+}
+
+###insert to value a key in root of that row
+
+PUT http://localhost:7016/src/kSampleFolder/ksSample/InsertToKey/16/ItemsInOrder
 content-type: application/json
 
 {
