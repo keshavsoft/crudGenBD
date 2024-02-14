@@ -1,8 +1,0 @@
-{
-    "CustomerName": {
-        "type": "STRING"
-    },
-    "CustomerMobile": {
-        "type": "NUMBER"
-    }
-}

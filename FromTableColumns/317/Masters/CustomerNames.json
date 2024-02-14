@@ -11,9 +11,5 @@
     "City": {
       "type": "STRING",
       "allowNull": true
-    },
-    "Pcs": {
-      "type": "STRING",
-      "allowNull": true
     }
   }
