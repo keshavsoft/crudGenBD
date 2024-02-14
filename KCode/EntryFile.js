@@ -15,11 +15,11 @@ let StartFunc = ({ inFilesArray }) => {
         inTo: CommonTo
     });
 
-    // StartFuncForDatabase({
-    //     inFilesArray: LocalFilesArray,
-    //     inFrom: CommonFrom,
-    //     inTo: CommonTo
-    // });
+    StartFuncForDatabase({
+        inFilesArray: LocalFilesArray,
+        inFrom: CommonFrom,
+        inTo: CommonTo
+    });
 };
 
 let LocalFilesArray = StartFuncPrepareTablesSchema();
