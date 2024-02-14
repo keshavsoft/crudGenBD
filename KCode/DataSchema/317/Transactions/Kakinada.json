@@ -1,1 +1,23 @@
-[]
+{
+    "ItemsInOrder": {
+        "type": "OBJECT",
+        "allowNull": true
+    },
+    "CustomerData": {
+        "type": "OBJECT",
+        "unique": true,
+        "allowNull": false
+    },
+    "OrderData": {
+        "type": "OBJECT",
+        "allowNull": false
+    },
+    "AddOnData": {
+        "type": "OBJECT",
+        "allowNull": false
+    },
+    "CheckOutData": {
+        "type": "OBJECT",
+        "allowNull": false
+    }
+}

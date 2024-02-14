@@ -1,1 +1,19 @@
-[]
+{
+    "Category": {
+        "type": "STRING",
+        "allowNull": false
+    },
+    "ItemName": {
+        "type": "STRING",
+        "unique": true,
+        "allowNull": false
+    },
+    "DryWashRate": {
+        "type": "NUMBER",
+        "allowNull": true
+    },
+    "Pcs": {
+        "type": "NUMBER",
+        "allowNull": true
+    }
+}
