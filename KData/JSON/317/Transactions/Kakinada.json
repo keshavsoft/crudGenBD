@@ -1,0 +1,115 @@
+[
+  {
+    "ItemsInOrder": "iiiiiiiiiiiii",
+    "CustomerData": {
+      "CustomerName": "SREENIVA",
+      "CustomerMobile": "8341177771"
+    },
+    "OrderData": {
+      "BranchName": "Kakinada",
+      "Currentdateandtime": "2024-02-14T12:23:13",
+      "OrderNumber": "16"
+    },
+    "AddOnData": "ggggggggggggg",
+    "CheckOutData": {},
+    "UuId": "63c84e64-8c92-4775-b4c2-042bd5bb6756",
+    "DateTime": "2024-02-14T06:53:19.667Z"
+  },
+  {
+    "ItemsInOrder": {
+      "1": {
+        "ItemSerial": 1,
+        "Category": "Men",
+        "ItemName": "M Shirt DW",
+        "ItemNamePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "WashType": "DryWash",
+        "WashTypePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "locationPk": "Vizag",
+        "location": "Vizag",
+        "Pcs": 1,
+        "Rate": 60,
+        "DisPer": 0,
+        "AddOn": "0-0",
+        "DeliveryDateTime": "2024-02-21T12:32:28",
+        "Total": 60
+      }
+    },
+    "CustomerData": {
+      "CustomerName": "SREENIVAS",
+      "CustomerMobile": "8341177771"
+    },
+    "OrderData": {
+      "BranchName": "Kakinada",
+      "Currentdateandtime": "2024-02-14T12:32:28",
+      "OrderNumber": "316"
+    },
+    "AddOnData": "ggggggggggggg",
+    "CheckOutData": {},
+    "UuId": "3b0a304b-ccb2-4681-a31e-f38dd38b909d",
+    "DateTime": "2024-02-14T07:02:39.141Z"
+  },
+  {
+    "ItemsInOrder": {
+      "1": {
+        "ItemSerial": 1,
+        "Category": "Men",
+        "ItemName": "M Shirt DW",
+        "ItemNamePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "WashType": "DryWash",
+        "WashTypePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "locationPk": "Vizag",
+        "location": "Vizag",
+        "Pcs": 1,
+        "Rate": 60,
+        "DisPer": 0,
+        "AddOn": "0-0",
+        "DeliveryDateTime": "2024-02-21T12:36:48",
+        "Total": 60
+      }
+    },
+    "CustomerData": {
+      "CustomerName": "SREENIVAS",
+      "CustomerMobile": "8341177771"
+    },
+    "OrderData": {
+      "BranchName": "Kakinada",
+      "Currentdateandtime": "2024-02-14T12:36:48"
+    },
+    "AddOnData": {},
+    "CheckOutData": {},
+    "UuId": "0c89fe0d-5411-452c-a77b-1af2e01545b7",
+    "DateTime": "2024-02-14T07:06:57.066Z"
+  },
+  {
+    "ItemsInOrder": {
+      "1": {
+        "ItemSerial": 1,
+        "Category": "Men",
+        "ItemName": "M Shirt DW",
+        "ItemNamePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "WashType": "DryWash",
+        "WashTypePk": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+        "locationPk": "Vizag",
+        "location": "Vizag",
+        "Pcs": 1,
+        "Rate": 60,
+        "DisPer": 0,
+        "AddOn": "0-0",
+        "DeliveryDateTime": "2024-02-21T13:48:44",
+        "Total": 60
+      }
+    },
+    "CustomerData": {
+      "CustomerName": "SREENIVAS",
+      "CustomerMobile": "8341177771"
+    },
+    "OrderData": {
+      "BranchName": "Kakinada",
+      "Currentdateandtime": "2024-02-14T13:48:44"
+    },
+    "AddOnData": {},
+    "CheckOutData": {},
+    "UuId": "253627e3-7257-444b-8731-80f388e25911",
+    "DateTime": "2024-02-14T08:18:51.875Z"
+  }
+]

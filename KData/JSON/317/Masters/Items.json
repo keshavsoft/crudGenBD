@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "Category": "Men",
+    "ItemName": "M Shirt DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "39dddad3-2a72-4b5a-a284-326a66cb327b",
+    "DateTime": "2024-02-14T06:59:11.516Z"
+  },
+  {
+    "Category": "Kid",
+    "ItemName": "M Shirt DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "13329e16-08b5-498f-969a-17029cb225dd",
+    "DateTime": "2024-02-14T06:59:24.156Z"
+  },
+  {
+    "Category": "Women",
+    "ItemName": "M Shirt DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "ba0f3af1-2edd-434a-a833-27625ad3e5d4",
+    "DateTime": "2024-02-14T06:59:32.712Z"
+  },
+  {
+    "Category": "Women",
+    "ItemName": "M Jeans DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "094bc567-d9ad-4aa4-a47d-f6384d61c11d",
+    "DateTime": "2024-02-14T06:59:46.464Z"
+  },
+  {
+    "Category": "Men",
+    "ItemName": "M Jeans DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "2a40389a-dd6a-4f40-a862-de4127f56f46",
+    "DateTime": "2024-02-14T06:59:52.332Z"
+  },
+  {
+    "Category": "Kid",
+    "ItemName": "M Jeans DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "d9c852c3-3579-4bc3-83ce-47513d5617ff",
+    "DateTime": "2024-02-14T06:59:59.691Z"
+  },
+  {
+    "Category": "Kid",
+    "ItemName": "M Jacket DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "7552de36-ef0e-4473-b06c-7f94d737fabc",
+    "DateTime": "2024-02-14T07:00:12.142Z"
+  },
+  {
+    "Category": "Women",
+    "ItemName": "M Jacket DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "13c0e6fb-431f-4904-a23a-504542f88734",
+    "DateTime": "2024-02-14T07:00:18.539Z"
+  },
+  {
+    "Category": "Men",
+    "ItemName": "M Jacket DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "2a89c69a-0163-41d5-9ce1-4965ebb8e3d6",
+    "DateTime": "2024-02-14T07:00:24.520Z"
+  },
+  {
+    "Category": "Women",
+    "ItemName": "M Saree DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "8202747f-9a27-4ad6-af10-cc1830942c48",
+    "DateTime": "2024-02-14T07:00:41.463Z"
+  },
+  {
+    "Category": "Household",
+    "ItemName": "M Blanket DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "ccdfcbe9-6ac0-4c86-8867-6aa318f2b4bb",
+    "DateTime": "2024-02-14T07:01:01.262Z"
+  },
+  {
+    "Category": "Household",
+    "ItemName": "M Pillow Covers DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "eb210478-b1b2-4f75-bb70-7165a90f60fc",
+    "DateTime": "2024-02-14T07:01:13.123Z"
+  },
+  {
+    "Category": "Others",
+    "ItemName": "M Restaurant Curtains DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "76243c33-e217-46ae-a65e-769330e7811e",
+    "DateTime": "2024-02-14T07:01:35.257Z"
+  },
+  {
+    "Category": "Others",
+    "ItemName": "M Restaurant Mats DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "613c09ed-4c60-4682-8d35-aca2a11e2249",
+    "DateTime": "2024-02-14T07:01:50.940Z"
+  },
+  {
+    "Category": "Others",
+    "ItemName": "M Restaurant Blankets DW",
+    "DryWashRate": 60,
+    "Pcs": "2000",
+    "UuId": "64c4b4dd-7990-4fa7-955a-530f5eff23e7",
+    "DateTime": "2024-02-14T07:02:03.180Z"
+  }
+]

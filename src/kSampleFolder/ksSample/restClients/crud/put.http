@@ -1,4 +1,4 @@
-PUT http://localhost:7016/src/ksSample/78
+GET http://localhost:7016/src/kSampleFolder/ksSample/16
 content-type: application/json
 
 {

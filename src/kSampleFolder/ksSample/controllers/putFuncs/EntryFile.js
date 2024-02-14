@@ -3,7 +3,8 @@ import { ColumnsPullFunc } from "../../DataColumns.js";
 import { PutFunc as PutFuncRepo } from "../../repos/putFuncs/EntryFile.js";
 
 let PutFunc = async (req, res) => {
-  let LocalDataToUpdate = ColumnsPullFunc()(req.body);
+  // let LocalDataToUpdate = ColumnsPullFunc()(req.body);
+  let LocalDataToUpdate = req.body;
 
   let LocalIfFromParam = req.params.id;
 
