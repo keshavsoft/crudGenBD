@@ -120,3 +120,11 @@ Follow Installation steps 1, 2, 3 then
    
    ```
       npm run start
+
+
+to rerun the application for new schema
+
+1. delete bin folder in the root ( backend )
+2. delete data folder in KData/JSON ( data location )
+
+define you config in kcode folder
