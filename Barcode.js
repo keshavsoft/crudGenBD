@@ -11,19 +11,27 @@ let StartFunc = () => {
     const db = StartFuncCommonFuncs();
     db.read();
     LocalReturnData.data = db.data[0];
-    console.log("db::--", db.data);
+    console.log("db::--", LocalReturnData.data);
 
-    Object.entries(LocalReturnData.data.ItemsInOrder).forEach(LocalForEachFunc);
+    let LocalBookingData = {};
+    LocalBookingData.BookingData = {};
+    LocalBookingData.BookingData.CustomerData = LocalReturnData.data.CustomerData;
+    LocalBookingData.BookingData.OrderData = LocalReturnData.data.OrderData;
+    LocalBookingData.BookingData.AddOnData = LocalReturnData.data.AddOnData;
+    LocalBookingData.BookingData.CheckOutData = LocalReturnData.data.CheckOutData;
 
+    Object.entries(LocalReturnData.data.ItemsInOrder).forEach(([key, value]) => {
+        LocalForEachFunc({ itemData: value, inBookingData: LocalBookingData });
+    });
     return true;
 };
 
-let LocalForEachFunc = ([key, value]) => {
-    for (let i = 0; i < value.Pcs; i++) {
-        
+let LocalForEachFunc = ({ itemData, inBookingData }) => {
+    for (let i = 0; i < itemData.Pcs; i++) {
+
         let LocalSendData = {};
         LocalSendData.Pcs = i
-        LocalSendData = { ...value }
+        LocalSendData = { ...itemData, ...inBookingData }
         StartFuncwriteFileFromModal({ inDataToInsert: LocalSendData })
 
     }
