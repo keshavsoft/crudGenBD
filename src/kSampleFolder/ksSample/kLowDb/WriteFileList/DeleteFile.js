@@ -1,14 +1,9 @@
-import { LowSync } from "lowdb";
-import { JSONFileSync } from "lowdb/node";
-import Configjson from "../../../../Config.json" assert { type: "json" };
-import fileNameJson from "../fileName.json" assert { type: "json" };
+import { StartFunc as StartFuncCommonFuncs } from '../CommonFuncs/ReturnDbObject.js';
 
 let StartFunc = async ({ inId }) => {
   let LocalId = inId;
-  let UserDataFilePath = `${Configjson.JsonPath}/${fileNameJson.fileName}`;
-  const defaultData = { error: "From KLowDb" };
 
-  const db = new LowSync(new JSONFileSync(UserDataFilePath), defaultData);
+  const db = StartFuncCommonFuncs();
   db.read();
   let LocalarrayOfObjects = db.data;
 

@@ -1,0 +1,43 @@
+{
+    "GenerateReference": {
+        "ReferncePk": "",
+        "FileNameOnly": ""
+    },
+    "ItemSerial": "",
+    "Category": "",
+    "ItemName": "",
+    "ItemNamePk": "",
+    "WashType": "",
+    "WashTypePk": "",
+    "locationPk": "",
+    "location": "",
+    "Pcs": "",
+    "Rate": "",
+    "DisPer": "",
+    "AddOn": "",
+    "DeliveryDateTime": "",
+    "Total": "",
+    "BookingData": {
+        "CustomerData": {
+            "CustomerName": "",
+            "CustomerMobile": ""
+        },
+        "OrderData": {
+            "BranchName": "",
+            "Currentdateandtime": ""
+        },
+        "AddOnData": [],
+        "CheckOutData": {
+            "RoundOff": "",
+            "CashAmount": "",
+            "CardAmount": "",
+            "UPIAmount": "",
+            "DiscountPer": "",
+            "GstData": {
+                "DiscountAmount": "",
+                "CGST": "",
+                "SGST": ""
+            }
+        }
+    }
+}
