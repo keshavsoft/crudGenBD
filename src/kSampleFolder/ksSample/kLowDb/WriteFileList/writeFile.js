@@ -1,7 +1,4 @@
-import { LowSync } from 'lowdb'
-import { JSONFileSync } from 'lowdb/node'
-import Configjson from '../../../../Config.json' assert { type: 'json' };
-import fileNameJson from '../fileName.json' assert { type: 'json' };
+import { StartFunc as StartFuncCommonFuncs } from '../CommonFuncs/ReturnDbObject.js';
 
 let StartFunc = ({ inDataToInsert }) => {
     let LocalinDataToInsert = inDataToInsert;
@@ -9,12 +6,7 @@ let StartFunc = ({ inDataToInsert }) => {
 
     LocalReturnData.KTF = false;
 
-    // LocalReturnData.UserDataFilePath = `${Configjson.JsonPath}/${fileNameJson.fileName}`;
-    LocalReturnData.UserDataFilePath = `${Configjson.jsonConfig.DataPath}/${Configjson.jsonConfig.DataPk}/${fileNameJson.folderName}/${fileNameJson.fileName}`;
-
-    const defaultData = { error: "From KLowDb" }
-
-    const db = new LowSync(new JSONFileSync(LocalReturnData.UserDataFilePath), defaultData);
+    const db = StartFuncCommonFuncs()
     db.read();
     let LocalDataWithUuid = LocalFunc({ inDataToInsert: LocalinDataToInsert });
 

@@ -1,5 +1,6 @@
 import { StartFunc as StartFuncCommonFuncs } from './bin/Transactions/Kakinada/kLowDb/CommonFuncs/ReturnDbObject.js';
 import { StartFunc as StartFuncwriteFileFromModal } from './bin/QrCodes/Generate/kLowDb/WriteFileList/writeFile.js';
+import BarcodeJson from './Barcode.json' assert {type: 'json'};
 
 let StartFunc = () => {
 
@@ -19,7 +20,7 @@ let StartFunc = () => {
 
 let LocalForEachFunc = ([key, value]) => {
     for (let i = 0; i < value.Pcs; i++) {
-        console.log("element:", i, value.ItemName);
+        
         let LocalSendData = {};
         LocalSendData.Pcs = i
         LocalSendData = { ...value }
