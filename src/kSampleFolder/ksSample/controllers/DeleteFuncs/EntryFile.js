@@ -17,7 +17,7 @@ let DeleteFunc = async (req, res) => {
 };
 
 let DeleteFromKeyFunc = async (req, res) => {
-    let LocalId = req.params.Id;
+    let LocalId = req.params.id;
     let LocalKey = req.params.inKey;
     let LocalSubId = req.params.inSubId;
 
