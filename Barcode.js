@@ -12,25 +12,20 @@ let StartFunc = () => {
     LocalReturnData.data = db.data[0];
     console.log("db::--", db.data);
 
-    Object.entries(LocalReturnData.data.ItemsInOrder).forEach(([key, value]) => {
-
-        for (let i = 0; i < value.Pcs; i++) {
-            console.log("element:", i, value.ItemName);
-            let LocalSendData = {};
-            LocalSendData.Pcs = i
-            LocalSendData = { ...value }
-            StartFuncwriteFileFromModal({ inDataToInsert: LocalSendData })
-
-        }
-        // console.log(`${key}: ${value}`);
-    });
-
-
-    // console.log("LocalReturnData:", LocalReturnData);
-
-    // db.write();
+    Object.entries(LocalReturnData.data.ItemsInOrder).forEach(LocalForEachFunc);
 
     return true;
+};
+
+let LocalForEachFunc = ([key, value]) => {
+    for (let i = 0; i < value.Pcs; i++) {
+        console.log("element:", i, value.ItemName);
+        let LocalSendData = {};
+        LocalSendData.Pcs = i
+        LocalSendData = { ...value }
+        StartFuncwriteFileFromModal({ inDataToInsert: LocalSendData })
+
+    }
 };
 
 // export { StartFunc };
