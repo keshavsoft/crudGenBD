@@ -10,7 +10,7 @@ let StartFunc = ({ inDataToUpdate, inId }) => {
     db.read();
     
     let LocalFindRow = db.data.find(element => {
-        return element.UuId === inId;
+        return element.UuId == inId;
     });
 
     LocalUpdateRow({ inFindRow: LocalFindRow, inDataToUpdate: LocalDataToUpdate });
