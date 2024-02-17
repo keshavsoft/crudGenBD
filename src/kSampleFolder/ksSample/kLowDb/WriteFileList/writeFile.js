@@ -8,7 +8,7 @@ let StartFunc = ({ inDataToInsert }) => {
 
     const db = StartFuncCommonFuncs()
     db.read();
-    let LocalDataWithUuid = LocalFunc({ inDataToInsert: LocalinDataToInsert });
+    let LocalDataWithUuid = LocalFuncGeneratePk({ inDataToInsert: LocalinDataToInsert, inData: db.data });
 
     if (Array.isArray(db.data) === false) {
         LocalReturnData.KReason = "Not array inside Json file...";
@@ -24,9 +24,12 @@ let StartFunc = ({ inDataToInsert }) => {
     return LocalDataWithUuid.UuId;
 };
 
-const LocalFunc = ({ inDataToInsert }) => {
+const LocalFuncGeneratePk = ({ inDataToInsert, inData }) => {
+    let LocalInData = inData;
+    let LocalArrayPk = LocalInData.map(element => element.pk);
+    let MaxPk = (Math.max(...LocalArrayPk, 0) + 1);
 
-    let LocalReturnData = { ...inDataToInsert, UuId: uuidv4(), DateTime: Timestamp() };
+    let LocalReturnData = { ...inDataToInsert, UuId: MaxPk, pk: MaxPk, DateTime: Timestamp() };
     return LocalReturnData
 };
 
