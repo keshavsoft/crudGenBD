@@ -7,7 +7,7 @@ let StartFunc = ({ inId }) => {
 
     const db = StartFuncCommonFuncs();
     db.read();
-    let LocalRowNeeded = db.data.find(e => e.UuId === LocalId);
+    let LocalRowNeeded = db.data.find(e => e.UuId == LocalId);
 
     LocalReturnData.JsonData = LocalRowNeeded;
     LocalReturnData.KTF = true;
